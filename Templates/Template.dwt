@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Boot-Up Website</title>
+  <link href="../css/setup.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header><div align="justify">
+	 <a href="index.html" <meta name="keywords" content="IT Support
+Technical Assistance
+Help Desk
+Troubleshooting
+Computer Repair
+Software Installation
+Network Setup
+System Maintenance
+Data Recovery
+Virus Removal
+Hardware Upgrades
+IT Consulting
+Remote Support
+Managed Services
+Cloud Solutions
+Cybersecurity
+IT Solutions
+Server Administration
+IT Training
+IT Infrastructure
+IT
+Information
+Info Tech
+Technology
+Technician
+fix
+phone repair
+phone fix">
+<img src="Img/icon.png" width="460" height="200" alt=""/></a>
+  </div></header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section><!-- TemplateBeginEditable name="Body" -->1111111<!-- TemplateEndEditable --></section>
+  
+    
+    <div><a href="https://www.facebook.com/TechBootUp1" target="_blank"><img src="../images/FB.png"></a>
+</div>
+  <footer>
+    &copy; 2023 Tech Boot-Up. All rights reserved.
+  </footer>
+</body>
+</html>
