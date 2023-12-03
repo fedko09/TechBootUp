@@ -11,7 +11,7 @@
 .servicescontainer {
 
     align-items: end;
-justify-items: center;
+justify-items: center ;
     display: grid;
     grid-template-columns: 30vh auto;
     grid-template-rows: auto 1vh;
@@ -73,4 +73,16 @@ button{
 .dropdown-menu {
     width: max-content;
     background-color: black;
+}
+
+.d-flex {
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 480px) {
+    .d-flex {
+        display: inline-flex;
+        flex-direction: column;
+    }
 }
