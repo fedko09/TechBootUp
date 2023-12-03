@@ -80,7 +80,7 @@ button{
     flex-wrap: nowrap;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1090px) {
     .d-flex {
         display: inline-flex;
         flex-direction: column;
