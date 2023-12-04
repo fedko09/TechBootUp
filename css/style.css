@@ -2,7 +2,9 @@
     color: blue;
 }
 
-
+* {
+    font-size: 1rem;
+}
 
 .active {
     color: red;
@@ -11,10 +13,10 @@
 .servicescontainer {
 
     align-items: end;
-justify-items: center ;
+    justify-items: center ;
     display: grid;
-    grid-template-columns: 30vh auto;
-    grid-template-rows: auto 1vh;
+    grid-template-columns: 20VH 20vh;
+    grid-template-rows: 3vh 3vh;
 }
 
 .contactcontainer,.navcontainer,.footercontainer {
@@ -68,6 +70,7 @@ button:active {
 
 button{ 
     color: white;
+    width: 350px;
 }
 
 .dropdown-menu {
@@ -78,11 +81,45 @@ button{
 .d-flex {
     flex-shrink: 0;
     flex-wrap: nowrap;
+    flex-grow: 0;
+    
+}
+
+.servcontainer {
+    padding-left: 100px;
+}
+
+.dropdown-menu {
+    z-index: 999;
 }
 
 @media (max-width: 1100px) {
     .d-flex {
         display: inline-flex;
         flex-direction: column;
+        flex-grow: 0;
+        width: max-content;
+    }
+
+    .servicecontainer {
+        display: grid;
+        width: 120px;
+        grid-template-columns: 20vh;
+        grid-template-rows: 4vh;
+    }
+
+    * {
+        font-size: 1.12rem;
+    }
+
+    .servcontainer {
+        margin-top: 20px;
+        align-content: center;
+    }
+
+    .dropdown-menu {
+        width: max-content;
+        height: fit-content;
+        z-index: 10;
     }
 }
